@@ -1,12 +1,36 @@
 import React from 'react';
-import Wrapper from '../Wrapper';
-
-const CounterB = (props) => {
-       const {CountIncrement, count} = props;
-      return (
-            <button onClick={CountIncrement}>CounterB :{count} </button>
+class CounterB extends React.Component {
+    constructor(props) {
+        super(props)
+    }
+    render() {
+        return (
+            <button>CounterB :</button>
         )
+    }
 }
-    
+export default CounterB;
 
-export default Wrapper(CounterB);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
